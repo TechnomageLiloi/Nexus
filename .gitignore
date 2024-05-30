@@ -1,3 +1,4 @@
 /vendor/
 /composer.lock
 /Tests/.phpunit.result.cache
+/Root/
