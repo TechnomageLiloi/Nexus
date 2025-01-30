@@ -1,7 +1,7 @@
-Rune.Atoms = {
+Rune.Vertex = {
     show: function ()
     {
-        API.request('Rune.Atoms.Show', {
+        API.request('Rune.Vertex.Show', {
 
         }, function (data) {
             $('#page').html(data.render);

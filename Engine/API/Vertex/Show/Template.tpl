@@ -1,4 +1,4 @@
-<link href="<?php echo ROOT_URL; ?>/Engine/API/Atoms/Show/Style.css" rel="stylesheet" />
+<link href="<?php echo ROOT_URL; ?>/Engine/API/Vertex/Show/Style.css" rel="stylesheet" />
 <div id="atoms-show">
     <table>
         <tr>

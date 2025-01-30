@@ -15,7 +15,7 @@
 
         <script src="<?php echo ROOT_URL; ?>/Engine/Bootstrap.js"></script>
         <script src="<?php echo ROOT_URL; ?>/Engine/API/Requests.js"></script>
-        <script src="<?php echo ROOT_URL; ?>/Engine/API/Atoms/Requests.js"></script>
+        <script src="<?php echo ROOT_URL; ?>/Engine/API/Vertex/Requests.js"></script>
 
         <?php if($admin): ?>
 
@@ -25,7 +25,7 @@
     </head>
     <body>
         <div id="head">
-            <!--<a href="javascript:void(0)" class="butn" onclick="Rune.Atoms.show();">Map</a>-->
+            <!--<a href="javascript:void(0)" class="butn" onclick="Rune.Vertex.show();">Map</a>-->
             <?php if($admin): ?>
                 <!--<a href="javascript:void(0)" class="butn" onclick="Rune.Security.Password.logout();">Logout</a>-->
             <?php else: ?>
@@ -34,7 +34,7 @@
         </div>
         <div id="page">
             <script>
-                Rune.Atoms.show();
+                Rune.Vertex.show();
             </script>
         </div>
     </body>

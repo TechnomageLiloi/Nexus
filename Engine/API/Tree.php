@@ -31,7 +31,7 @@ class Tree
         {
             $manager = new Manager();
 
-            $manager->add(new Method('Rune.Atoms.Show', '\Liloi\Rune\API\Atoms\Show\Method::execute'));
+            $manager->add(new Method('Rune.Vertex.Show', '\Liloi\Rune\API\Vertex\Show\Method::execute'));
 
             self::$instance = new self($manager);
         }

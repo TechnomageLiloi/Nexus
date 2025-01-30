@@ -1,6 +1,6 @@
 <?php
 
-namespace Liloi\Rune\Domain\Atoms;
+namespace Liloi\Rune\Domain\Vertex;
 
 use Liloi\Tools\Collection as AbstractCollection;
 
